@@ -37,14 +37,14 @@
 #print('The average acceleration is {}'.format(a))
 
 #EP:7 
-x=float(raw_input('Enter the monthly saving mount:'))
-x1=x * (1+0.00417)
-x2=(x+x1) * (1+0.00417)
-x3=(x+x2) *(1+0.00417)
-x4=(x+x3) * (1+0.00417)
-x5=(x+x4) *(1+0.00417)
-x6=(x+x5) *(1+0.00417)
-print(x6)
+#x=float(raw_input('Enter the monthly saving mount:'))
+#x1=x * (1+0.00417)
+#x2=(x+x1) * (1+0.00417)
+#x3=(x+x2) *(1+0.00417)
+#x4=(x+x3) * (1+0.00417)
+#x5=(x+x4) *(1+0.00417)
+#x6=(x+x5) *(1+0.00417)
+#print(x6)
 
 #EP:8  1000 yi nei zheng shu he
 #number=int(raw_input('Enter a number between 0 and 1000:'))
@@ -53,8 +53,6 @@ print(x6)
 #c=(number%100)//10
 #sum=a+b+c
 #print(sum)
-
-
 
 
 
