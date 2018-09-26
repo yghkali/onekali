@@ -144,19 +144,39 @@ if (num1>num2):
 else:
     print('Package 1 has the better price')
 '''
-#EP:11  hui-wen-shu
-a[]=eval(raw_input('Enter a three-digit integer:'))
-if a[0]==a[2]:
-    print('true')
-else:
-    print('false')
 
+
+'''
+#EP:8 shi-tou-jian-dao-bu
+import random
+num=random.randint(0,2)
+n=eval(raw_input('>>'))
+if(n<num):
+    print('yes')
+elif(n==num):
+    print('ping')
+else:
+    print('no',num)
+'''
+'''
+#EP:11  hui-wen-shu
+n=eval(raw_input('Enter a three-digit integer:'))
+a=n/100
+b=n%100/10
+c=n%10
+if(a==c):
+    print('{} is a palindrome'.format(n))
+else:
+    print('{} is not a palindrome'.format(n))
+'''
 
 '''
 #EP:12 san-jiao-xing-zhou-chang
 a,b,c=eval(raw_input('Enter three edges:'))
+zhouchang=a+b+c
 if(a+b>=c|a+c>=b|b+c>=a):
-    zhouchang=a+b+c
+    print('The perimeter is {} '.format(zhouchang))
+elif(a==b & a==c):
     print('The perimeter is {} '.format(zhouchang))
 else:
     print('Enter is error')
