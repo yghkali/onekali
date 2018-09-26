@@ -46,6 +46,13 @@
 #x6=(x+x5) *(1+0.00417)
 #print(x6)
 
+#EP:7  fang fa er
+x=eval(raw_input('>>'))
+sum=0
+for i in range(6):
+    sum=(x+sum)*(1+0.00417)
+print('{:.2f}'.format(sum))
+
 #EP:8  1000 yi nei zheng shu he
 #number=int(raw_input('Enter a number between 0 and 1000:'))
 #a=number%10
