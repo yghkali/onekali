@@ -152,11 +152,11 @@ import random
 num=random.randint(0,2)
 n=eval(raw_input('>>'))
 if(n<num):
-    print('yes')
+    print('yes,you gain')
 elif(n==num):
-    print('ping')
+    print('ping-shou')
 else:
-    print('no',num)
+    print('no,you failed',num)
 '''
 '''
 #EP:11  hui-wen-shu
