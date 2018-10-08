@@ -128,7 +128,16 @@ n=1
 while n**2<12000:
     n+=1
 print(n)
+'''
 
+#EP:5-1
+n=1
+sum1=0
+while sum1 < 12000:
+    sum1=pow(n,3)
+    n+=1
+print(n)
+'''
 
 
 
