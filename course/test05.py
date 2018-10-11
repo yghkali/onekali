@@ -44,8 +44,8 @@ Rec.getP()
 '''
 '''
 class Account:
-    def __init__(self,id,balance,annualInterestRate):
-        self.__id=id
+    def __init__(self,id_,balance,annualInterestRate):
+        self.__id_=id_
         self.__balance=balance
         self.__annualInterestRate=annualInterestRate/100
     def getMonthlyInterestRate(self,lilv):
@@ -64,7 +64,7 @@ class Account:
     def deposit(self):
         cun=self.__balance-2500+3000
         print cun
-        print self.__id
+        print self.__id_
         cunlilv=self.__annualInterestRate/12
         print cunlixi
         cunlixi=cun*cunlilv
